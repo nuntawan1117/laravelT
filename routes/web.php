@@ -31,8 +31,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 
 Route::get('/menu/{type}', 'PostsController@mymenu');
-
-Route::get('/storemenu', 'PostsController@storemenu');
+//นันทวัน ชัยพงษ์ 6014110026
+Route::get('/storemenu', 'PostsController@srotemenu');
 Route::get('/createmenu/{type}', 'PostsController@createmenu');
 Route::get('/editmenu/{id}', 'PostsController@editmenu');
 Route::PUT('/updatemenu/{id}', 'PostsController@updatemenu');
